@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /*header and big background image, positioned to center */
+  /*followed tutorials on youtube & general:
+  https://www.youtube.com/watch?v=oYRda7UtuhA&ab_channel=EasyTutorials
+  https://www.youtube.com/watch?v=mU6anWqZJcc&ab_channel=freeCodeCamp.org
+  https://www.youtube.com/watch?v=qz0aGYrrlhU&ab_channel=ProgrammingwithMosh
+  https://websitesetup.org/website-coding-html-css/
+  https://learn.shayhowe.com/html-css/building-your-first-web-page/
+  */
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image : url(climateimages/icecrack.png);
+    min-height:100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+}
+ /*allign nav bar to right */
+.navigationbar{
+    text-align: right;
+}
+ /* nav bar formatting for UI design */
+.navigationbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ /*nav bar fonting */
+.navigationbar ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+ /*big text format to make it center and design */
+.mainInfo{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);      
+    text-align: center;
+}
+ /*mainpage big header */
+.mainInfo h1{
+    font-size: 80px;
+}
+ /* mainpage writing under header*/
+.mainInfo p{
+    margin: 15px 0 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+ /*video text formatting */
+.video{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+ /*video header formatting */
+h1{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* video paragraph formatting*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    line-height: 22px;
+    padding: 5px;
+    padding-bottom: 26px;
+}
+ /*boxes for questions formatted for design  */
+.questionsBoxes{
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+ /* make the question boxes hug left screen*/
+.questionsBoxes h5{
+    text-align: left;
+}
+ /*question boxes design to look nice */
+.questionsBoxes input, .questionsBoxes textarea{
+    width: 100%;
+    padding: 7px;
+    margin: 9px 2;
+    background: #f0f0f0;
+}
+ /*put the search box right at the corner */
+.searchbox {
+    text-align: right;
+
+}
+ /*put background image in behind actions */
+
+.z10actions {
+        color: rgb(6, 124, 69);
+        background-image : url(climateimages/slide5.png);
+        background-position: center;
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+        position: relative;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 40px;
+
+}
+ /* image for 10 ways actions*/
+.title1{
+        background-image : url(climateimages/text.png)  ;
+        background-position: center;
+        background-size: 100% auto;
+        position: relative;
+        padding-bottom: 90px;
+        padding-top: 90;
+}

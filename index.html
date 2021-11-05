@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- import bootstrap  -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- main page title  -->
+<title>Climate Change</title>
+<!-- import css files  -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!-- boostrp implement to make all columns used  -->
+        <div class="col-md-12">
+
+        </div>
+    </div>
+    <section class="header">
+        <nav>
+            <a href="index.html"></a>
+            <!-- navigation bar creation -->
+            <div class=navigationbar>
+                <ul>
+                    <li><a href="#top">Introduction</a></li>
+                    <!-- hyperlink -->
+                    <li><a href="https://www.bbc.co.uk/news/science-environment-57988023">About</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#actions">Actions</a></li>
+                </ul>
+            </div>
+            <!-- searchbox creation -->
+            <div class="searchbox">
+                <form id="search"></form>
+                    <input type="text" placeholder="What are you looking for?">
+                    <input type="button" onclick="reset2()" value="Find">
+
+                </form>
+                <!-- alert that not found whatever is in search -->
+                <script>
+                    
+                    function reset2() {
+                      alert("Relevant data is not found.")
+                    }
+                </script>
+                
+            </div>
+            
+        </nav>
+        <!-- mainscreen headers -->
+        <div class="mainInfo">
+
+            <h1>Raising Awareness about <br>
+                Climate Change</h1>
+            <p>A growing and prevalent issue in our society.</p>
+        </div>
+    </section>
+    <!-- video displayed and imported with youtube embed function -->
+    <section class="video">
+        <h1  id="top">Greenpeace insight into climate change</h1>
+        <p>Informational Video<br>
+            <a href="https://www.greenpeace.org.uk/challenges/climate-change/">Credit to Greenpeace</a>
+
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PQek_jDVRHk" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe><br>
+        <br><br><br>
+
+    </section>
+    <div class="title1">
+        <h4 id="actions"> </h4>
+    </div>
+    <!-- 10 actions text -->
+    <div class="z10actions">
+        1. Travel using public transport<br>
+        2. Buy from and support local companies<br>
+        3. Reduce food waste<br>
+        4. Reduce meat consumption<br>
+        5. Adopt a vegan diet<br>
+        6. Protest companies that have no "green" initiatives<br>
+        7. Write to local politicians to update climate goals<br>
+        8. Invest in a food compost bin<br>
+        9. Reduce plastic waste<br>
+        10. Spread awareness of climate change<br>
+    </div>
+       <!-- question boxes creation and naming  -->
+    <div class="questionsBoxes">
+        <h5 id="support">Ask us a question!</h5>
+        <form id="questions" class="comment-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Location">
+                <textarea rows="4" placeholder="Your Question?"></textarea>
+                <input type="button" onclick="reset()" value="Submit">
+        </form>
+        <script>
+            function reset() {
+              document.getElementById("questions").reset();
+            }
+        </script>
+    <!-- footer -->
+    </div>
+    <footer>
+        <p>Author: Himendra Dhakal
+      </footer>
+</body>
+
+</html>
